@@ -3,10 +3,7 @@
   color: white;
   font-size: 32px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* height: 100vh; */
+  text-align: center;
 }
 
 .p{
@@ -19,4 +16,50 @@
   background: orange;
   font-size: 18px;
 
+}
+
+#div p:nth-child(odd){
+  background-color: lightpink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#div #num2{
+  color: blue;
+  font-size: 36px;
+}
+
+#div #num3{
+  font-size: 24px;
+}
+#div #num4{
+  background-color: rgb(115, 219, 115);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button{
+  font-size: 28px;
+  font-family: Arial, Helvetica,"times new roman", sans-serif
+}
+.one{
+  background-color: black;
+  color: aliceblue;
+}
+.tow{
+  background-color:yellow;
+}
+
+.play{
+  height: 300px;
+  width: 300px;
+}
+.play1{
+  height: 300px;
+  width: 300px;
+}
+a{
+  display: inline-block;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  border: 2px solid rgba(6, 71, 71, 0.5);
 }
