@@ -1,8 +1,22 @@
 .h1{
-  color: aqua;
+  background:  red;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
 }
 
-#p1{
-  color: brown;
+.p{
+  background: green;
+  color: white;
+  font-size: 18px;
 }
 
+.button{
+  background: orange;
+  font-size: 18px;
+
+}
