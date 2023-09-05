@@ -63,3 +63,16 @@ a{
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
   border: 2px solid rgba(6, 71, 71, 0.5);
 }
+
+.blok1 .b1{
+  color: aqua;
+}
+.blok1 .bu1{
+  background-color: green;
+  color: aliceblue;
+}
+
+.blok1 .bu2{
+  background-color:white ;
+  color:black;
+}
