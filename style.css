@@ -1,13 +1,11 @@
 .h1{
-  background:  red;
+  background: linear-gradient(90deg,rgb(174, 174, 228), rgb(30, 220, 231));
   color: white;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
   margin: 2px;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
+ padding: 50px;
   
 }
 
@@ -91,13 +89,28 @@
 }
 
 #new{
-  margin-left:  40%;
+  background: rgb(229, 174, 174);
 }
 
 .bb1{
   height: 50px;
   width: 50px;
+  color:white;
+  background-color: black;
 }
 
+
+.bb2{
+  height: 50px;
+  width: 50px;
+  color:white;
+  background-color: black;
+}
+
+body{
+  background-image: url(https://cdn.babamail.co.il/Images/2019/1/20/c3820345-da1b-4387-8694-62bbb2ea178f.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 
 
