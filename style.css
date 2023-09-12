@@ -1,116 +1,25 @@
-.h1{
-  background: linear-gradient(90deg,rgb(174, 174, 228), rgb(30, 220, 231));
-  color: white;
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
-  margin: 2px;
- padding: 50px;
+body{
+  background-color: black;
+}
+  
+#container{
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+  height: 20px;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
   
 }
-
-.p{
-  background: green;
-  color: white;
-  font-size: 18px;
-}
-
-.button1{
-  background: rgb(193, 193, 235);
-  font-size: 18px;
-  padding: 15px;
-
-}
-
-#div p:nth-child(odd){
-  background-color: lightpink;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#div #num2{
-  color: blue;
-  font-size: 36px;
-}
-
-#div #num3{
-  font-size: 24px;
-}
-#div #num4{
-  background-color: rgb(115, 219, 115);
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.button{
-  font-size: 28px;
-  font-family: Arial, Helvetica,"times new roman", sans-serif
-}
-.one{
-  background-color: black;
-  color: aliceblue;
-}
-.tow{
-  background-color:yellow;
-}
-
-.play{
-  height: 300px;
-  width: 300px;
-}
-.play1{
-  height: 300px;
-  width: 300px;
-}
-#img1{
-  display: inline-block;
+.item{
+  width: 50px;
+  text-align: center;
+  margin: 10px;
   padding: 10px;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
-  border: 2px solid rgba(6, 71, 71, 0.5);
+  color: white;
+
 }
-
-.blok1 .b1{
-  color: aqua;
+#item1{
+  
 }
-.blok1 .bu1{
-  background-color: green;
-  color: aliceblue;
-}
-
-.blok1 .bu2{
-  background-color:white ;
-  color:black;
-}
-
-
-.img01{
-  background-color: #fff;
-  width: 50px;
-  height: 50px;
-}
-
-#new{
-  background: rgb(229, 174, 174);
-}
-
-.bb1{
-  height: 50px;
-  width: 50px;
-  color:white;
-  background-color: black;
-}
-
-
-.bb2{
-  height: 50px;
-  width: 50px;
-  color:white;
-  background-color: black;
-}
-
-body{
-  background-image: url(https://cdn.babamail.co.il/Images/2019/1/20/c3820345-da1b-4387-8694-62bbb2ea178f.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-
 
