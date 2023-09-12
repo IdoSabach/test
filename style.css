@@ -1,5 +1,6 @@
 body{
   background-color: black;
+  text-align: center;
 }
   
 #container{
@@ -168,3 +169,25 @@ a1{
   align-self: center;
   gap:16px;
 }
+
+
+.title{
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.container1{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  
+}
+img{
+  width:80px;
+}
+.text{
+  text-align: center;
+}
+
+
